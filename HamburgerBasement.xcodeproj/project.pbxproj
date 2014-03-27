@@ -22,6 +22,7 @@
 		F572096618E3C2DE005D64F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F572094518E3C2DE005D64F8 /* UIKit.framework */; };
 		F572096E18E3C2DE005D64F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F572096C18E3C2DE005D64F8 /* InfoPlist.strings */; };
 		F572097018E3C2DE005D64F8 /* HamburgerBasementTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F572096F18E3C2DE005D64F8 /* HamburgerBasementTests.m */; };
+		F572097B18E3C376005D64F8 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F572097A18E3C376005D64F8 /* SWRevealViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		F572096B18E3C2DE005D64F8 /* HamburgerBasementTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HamburgerBasementTests-Info.plist"; sourceTree = "<group>"; };
 		F572096D18E3C2DE005D64F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F572096F18E3C2DE005D64F8 /* HamburgerBasementTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HamburgerBasementTests.m; sourceTree = "<group>"; };
+		F572097918E3C376005D64F8 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		F572097A18E3C376005D64F8 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,7 @@
 		F572094718E3C2DE005D64F8 /* HamburgerBasement */ = {
 			isa = PBXGroup;
 			children = (
+				F572097C18E3C37B005D64F8 /* SWReveal */,
 				F572095018E3C2DE005D64F8 /* AppDelegate.h */,
 				F572095118E3C2DE005D64F8 /* AppDelegate.m */,
 				F572095318E3C2DE005D64F8 /* Main.storyboard */,
@@ -155,6 +159,15 @@
 				F572096C18E3C2DE005D64F8 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F572097C18E3C37B005D64F8 /* SWReveal */ = {
+			isa = PBXGroup;
+			children = (
+				F572097918E3C376005D64F8 /* SWRevealViewController.h */,
+				F572097A18E3C376005D64F8 /* SWRevealViewController.m */,
+			);
+			name = SWReveal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +269,7 @@
 			files = (
 				F572095B18E3C2DE005D64F8 /* SecondViewController.m in Sources */,
 				F572095218E3C2DE005D64F8 /* AppDelegate.m in Sources */,
+				F572097B18E3C376005D64F8 /* SWRevealViewController.m in Sources */,
 				F572095818E3C2DE005D64F8 /* FirstViewController.m in Sources */,
 				F572094E18E3C2DE005D64F8 /* main.m in Sources */,
 			);
